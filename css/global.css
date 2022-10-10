@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana';
+  font-weight: 400;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding: 30px 70px 30px 70px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.nav-bar__wordmark {
+  font-weight: 700;
+  color: #335576;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-bar__nav-item-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-bar__nav-button {
+  margin-left: 20px;
+}
+
+.nav-bar__nav-button {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar__button-underlined {
+  border-bottom: 4px solid #db7a4e;
+  padding-bottom: 5px;
+}
+
+.cards-container {
+  display: flex;
+  padding: 50px 12% 100px 12%;
+  justify-content: space-between;
+}
+
+.footer-section {
+  display: flex;
+  padding: 50px 12% 50px 12%;
+  background-color: #fefaf5;
+  justify-content: space-between;
+}
+
+.footer-section__footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-section__item-title {
+  font-size: 30px;
+  color: #335576;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.footer-section__item-subtitle {
+  font-size: 12px;
+  color: #db7a4e;
+  margin-bottom: 10px;
+}
+
+.footer-section__hours-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-section__day-and-hours {
+  margin-right: 40px;
+}
+
+.footer-section__opening-hours,
+footer-section__email {
+  color: #335576;
+  font-size: 14px;
+}
+
+.footer-section__logo {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 40px;
+}
+
+.footer-section__logo-holder:last-child {
+  margin-right: -40px;
+}

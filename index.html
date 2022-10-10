@@ -1,24 +1,153 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Home</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <meta name="viewport" content="width=1280, initial-scale=1" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <nav class="nav-bar">
+      <div class="nav-bar__logo">
+        <a href="./index.html" class="nav-bar__wordmark">Travel Site</a>
+      </div>
+      <div class="nav-bar__nav-items-container">
+        <ul class="nav-bar__nav-item-list">
+          <li>
+            <a
+              class="nav-bar__nav-button nav-bar__button-underlined"
+              href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-bar__nav-button nav-hawaii-button"
+              href="./pages/hawaii.html"
+              >Hawaii</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-bar__nav-button nav-iceland-button"
+              href="./pages/iceland.html"
+              >Iceland</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-bar__nav-button nav-greece-button"
+              href="./pages/greece.html"
+              >Greece</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="home-hero">
+      <div class="home-hero__left-copy">
+        <h1 class="home-hero__hero-title">
+          Travelling Comes With Endless Discoveries
+        </h1>
+        <p class="home-hero__hero-description">
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <button class="home-hero_hero-button">
+          <a href="">Get Started</a>
+        </button>
+      </div>
+      <div class="home-hero__right-image">
+        <img
+          class="home-hero__hero-img"
+          src="./assets/images/hero.png"
+          alt="Home Page Hero Image"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="home-recommendation-title-block">
+        <p class="home-recommendation__title">Recommendations</p>
+      </section>
+
+      <section class="cards-container">
+        <a href="./pages/hawaii.html">
+          <div
+            class="cards-container__destination-card cards-container__destination-card-hawaii"
+          >
+            <p class="card-container__destination-card-title">Hawaii</p>
+          </div>
+        </a>
+        <a href="./pages/iceland.html">
+          <div
+            class="cards-container__destination-card cards-container__destination-card-iceland"
+          >
+            <p class="card-container__destination-card-title">Iceland</p>
+          </div>
+        </a>
+        <a href="./pages/greece.html">
+          <div
+            class="cards-container__destination-card cards-container__destination-card-greece"
+          >
+            <p class="card-container__destination-card-title">Greece</p>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="footer-section__footer-item">
+        <p class="footer-section__item-title">Contact</p>
+        <p class="footer-section__item-subtitle">EMAIL</p>
+        <p class="footer-section__email">info@travelsite.com</p>
+      </div>
+
+      <div class="footer-section__footer-item">
+        <p class="footer-section__item-title">Hours</p>
+        <div class="footer-section__hours-container">
+          <div class="footer-section__day-and-hours">
+            <p class="footer-section__item-subtitle">MONDAY - FRIDAY</p>
+            <p class="footer-section__opening-hours">9:00 AM - 5:00 PM</p>
+          </div>
+
+          <div class="footer-section__day-and-hours">
+            <p class="footer-section__item-subtitle">SATURDAY</p>
+            <p class="footer-section__opening-hours">10:00 AM - 4:00 PM</p>
+          </div>
+
+          <div class="footer-section__day-and-hours">
+            <p class="footer-section__item-subtitle">SUNDAY</p>
+            <p class="footer-section__opening-hours">Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section__footer-item">
+        <p class="footer-section__item-title">Social</p>
+        <div class="footer-section__logo-holder">
+          <img
+            class="footer-section__logo"
+            src="./assets/logos/icon-instagram.png"
+            alt="instagram logo"
+          />
+          <img
+            class="footer-section__logo"
+            src="./assets/logos/icon-facebook.png"
+            alt="facebook logo"
+          />
+          <img
+            class="footer-section__logo"
+            src="./assets/logos/icon-twitter.png"
+            alt="twitter logo"
+          />
+        </div>
+      </div>
+    </footer>
 
     <script src="" async defer></script>
   </body>
